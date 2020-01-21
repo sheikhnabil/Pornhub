@@ -106,7 +106,7 @@ async def on_afk(event):
             else:
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
-        message_to_reply = f"\n𝔸𝔽𝕂 ℝ𝕀𝔾ℍ𝕋 ℕ𝕆𝕎𝕄𝕐 𝕄𝔸𝕊𝕋𝔼ℝ 𝕀𝕊 𝕆𝔽𝔽𝕃𝕀ℕ𝔼 ℙ𝕃𝔼𝔸𝕊𝔼 ℂ𝕆ℕ𝕋𝔸ℂ𝕋 𝔸𝔽𝕋𝔼ℝ 𝕊𝕆𝕄𝔼𝕋𝕀𝕄𝔼\n**Last Seen: Only God Knows.** " + \
+        message_to_reply = f"\n𝔸𝔽𝕂 ℝ𝕀𝔾ℍ𝕋 ℕ𝕆𝕎\n𝕄𝕐 𝕄𝔸𝕊𝕋𝔼ℝ 𝕀𝕊 𝕆𝔽𝔽𝕃𝕀ℕ𝔼\n ℙ𝕃𝔼𝔸𝕊𝔼 ℂ𝕆ℕ𝕋𝔸ℂ𝕋 𝔸𝔽𝕋𝔼ℝ 𝕊𝕆𝕄𝔼𝕋𝕀𝕄𝔼\n**Last Seen: Only God Knows.** " + \
             f"\n\n__Reason:__ {reason}" \
             if reason \
             else f"RIP.....\n\n**Important Notice**\n\n[This User Is Ded Forever...](https://telegra.ph/file/797acacdbfe43cac4c992.jpg)"

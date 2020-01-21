@@ -9,7 +9,7 @@ from uniborg.util import admin_cmd
 async def _(event):
     if event.fwd_from:
         return
-    mentions = "`Your bot is running\n\nTelethon version: 1.10.6\nPython: 3.7.4\nUser: @r4v4n4\nDatabase Status: Telegram Databases functioning normally!`"
+    mentions = "`Jinda Hai apun Jab Tak Ye khel Khatam Nahi Hota Apun Idharich Hai\n\nTelethon version: 1.10.6\nPython: 3.7.4\nUser: @rajdeshmukh7\nGithub repo: https://github.com/Rajdeshmukh77/Pornhub`"
     chat = await event.get_input_chat()
     async for x in borg.iter_participants(chat, filter=ChannelParticipantsAdmins):
         mentions += f""

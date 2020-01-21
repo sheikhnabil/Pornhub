@@ -4,7 +4,7 @@ Command: `.autopic`
 
 :::::Credit Time::::::
 1) Coded By: @s_n_a_p_s
-2) Ported By: @r4v4n4 (Legend)
+2) Ported By: @rajdeshmukh7 (Legend)
 3) End Game Help By: @spechide
 
 
@@ -38,7 +38,7 @@ async def autopic(event):
         shutil.copy(downloaded_file_name, photo)
         im = Image.open(photo)
         file_test = im.rotate(counter, expand=False).save(photo, "PNG")
-        current_time = datetime.now().strftime("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡ \n ⚡PH TIMEZØNÈ⚡ \n  Time: %H:%M:%S \n  Date: %d.%m.%y \n Owner: @r4v4n4 \n⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡")
+        current_time = datetime.now().strftime("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡ \n ⚡PH TIMEZØNÈ⚡ \n  Time: %H:%M:%S \n  Date: %d.%m.%y \n Owner: @rajdeshmukh7 \n⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡")
         img = Image.open(photo)
         drawn_text = ImageDraw.Draw(img)
         fnt = ImageFont.truetype(FONT_FILE_TO_USE, 35)
